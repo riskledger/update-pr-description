@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "update-pr-description",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riskledger/update-pr-description.git"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "pull",
+    "request",
+    "update",
+    "description"
+  ],
+  "bugs": {
+    "url": "https://github.com/riskledger/update-pr-description/issues"
+  },
+  "homepage": "https://github.com/riskledger/update-pr-description#readme",
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js --ext .js",
+    "lint:fix": "yarn run lint --fix",
+    "lint:all": "yarn run lint ./",
+    "lint:all:fix": "yarn run lint:fix ./"
+  },
+  "dependencies": {
+    "@actions/core": "1.2.4",
+    "@actions/github": "2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "7.1.x",
+    "eslint-config-prettier": "6.11.x",
+    "eslint-plugin-prettier": "3.1.x",
+    "prettier": "2.0.x"
+  }
+}
