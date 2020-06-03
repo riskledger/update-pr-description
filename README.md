@@ -1,6 +1,6 @@
 # Update Pull Request Description
 
-### Easily update your Pull Requests description with this GitHub Action
+### Easily update a Pull Requests description with this GitHub Action
 
 ## Usage
 
