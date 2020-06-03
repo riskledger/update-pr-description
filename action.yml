@@ -14,5 +14,5 @@ runs:
   main: main.js
 
 branding:
-  icon: github
-  colour: orange
+  icon: git-pull-request
+  colour: red
