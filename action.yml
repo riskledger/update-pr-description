@@ -15,4 +15,4 @@ runs:
 
 branding:
   icon: git-pull-request
-  colour: red
+  color: red
