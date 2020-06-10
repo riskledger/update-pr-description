@@ -30,7 +30,7 @@
     "@actions/github": "2.2.0"
   },
   "devDependencies": {
-    "eslint": "7.1.x",
+    "eslint": "7.2.x",
     "eslint-config-prettier": "6.11.x",
     "eslint-plugin-prettier": "3.1.x",
     "prettier": "2.0.x"
