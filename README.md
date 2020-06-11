@@ -21,7 +21,7 @@ This action currently supports two inputs from the user: `body` and `token`. The
 |  Input  |                                                 Description                                                 |   Usage    |
 | :-----: | :---------------------------------------------------------------------------------------------------------: | :--------: |
 | `body`  |                      The text you wish to overwrite your Pull Request description with                      | _Required_ |
-| `token` | Your Github access token, which will already be avaliable within your workflow without any additional setup | _Required_ |
+| `token` | Your Github access token, which will already be available within your workflow without any additional setup | _Required_ |
 
 ## License
 
