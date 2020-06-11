@@ -15,7 +15,7 @@ const [repoOwner, repoName] = process.env.GITHUB_REPOSITORY.split('/');
 
 const prNum = github.context.payload.pull_request.number;
 
-const octokit = new github.GitHub(token);
+const octokit = github.getOctokit(token);
 
 octokit.pulls.update({
   owner: repoOwner,
