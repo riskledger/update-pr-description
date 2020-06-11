@@ -13,15 +13,13 @@ const body = core.getInput('body', {
 
 const [repoOwner, repoName] = process.env.GITHUB_REPOSITORY.split('/');
 
-const fs = require('fs');
-const ev = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
-const prNum = ev.pull_request.number;
+const prNum = github.context.payload.pull_request.number;
 
-const octokit = new github.GitHub(token);
+const octokit = github.getOctokit(token);
 
 octokit.pulls.update({
   owner: repoOwner,
   repo: repoName,
-  body: JSON.parse(body),
+  body: body,
   pull_number: prNum,
 });
