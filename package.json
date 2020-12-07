@@ -34,7 +34,7 @@
     "@vercel/ncc": "0.25.x",
     "eslint": "7.15.x",
     "eslint-config-prettier": "7.0.x",
-    "eslint-plugin-prettier": "3.1.x",
+    "eslint-plugin-prettier": "3.2.x",
     "prettier": "2.2.x"
   }
 }
