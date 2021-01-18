@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@vercel/ncc": "0.26.x",
-    "eslint": "7.17.x",
+    "eslint": "7.18.x",
     "eslint-config-prettier": "7.1.x",
     "eslint-plugin-prettier": "3.3.x",
     "prettier": "2.2.x"
