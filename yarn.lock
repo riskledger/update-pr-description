@@ -200,10 +200,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.9.tgz#43896ab87fc82bda1dfd600cdf44a0c8a64e11d2"
   integrity sha512-0sCTiXKXELOBxvZLN4krQ0FPOAA7ij+6WwvD0k/PHd9/KAkr4dXel5J9fh6F4x1FwAQILqAWkmpeuS6mjf1iKA==
 
-"@vercel/ncc@0.30.x":
-  version "0.30.0"
-  resolved "https://registry.yarnpkg.com/@vercel/ncc/-/ncc-0.30.0.tgz#e940f5cfe30dfd0b7b30c4d7f9f6f00fcf754577"
-  integrity sha512-16ePj2GkwjomvE0HLL5ny+d+sudOwvZNYW8vjpMh3cyWdFxoMI8KSQiolVxeHBULbU1C5mVxLK5nL9NtnnpIew==
+"@vercel/ncc@0.31.x":
+  version "0.31.0"
+  resolved "https://registry.yarnpkg.com/@vercel/ncc/-/ncc-0.31.0.tgz#5035b80b49406d8b1d5922a0ba57fbbab03d0ea4"
+  integrity sha512-vpioWEFk00Sk5CgJj39LFAjqXcM0PLcaSqaEDeZZUKfHEKYmHL5tOns7Xd21/o4SKzRi+XE0qhEv9wWwkfmNaA==
 
 acorn-jsx@^5.3.1:
   version "5.3.1"
