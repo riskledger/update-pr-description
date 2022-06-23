@@ -5,6 +5,8 @@ const token = core.getInput('token', { required: true });
 const body = core.getInput('body', { required: true });
 const jiraBaseUrl = core.getInput('jiraBaseUrl', { required: true });
 
+
+console.log(github.context);
 const [repoOwner, repoName] = process.env.GITHUB_REPOSITORY.split('/');
 console.log(repoOwner);
 console.log(repoName);
@@ -16,6 +18,7 @@ const [branchType, ticketNumber] = branchName.split('/');
 console.log(branchType);
 console.log(ticketNumber);
 const octokit = github.getOctokit(token);
+
 
 const template = `
 [Jira](${jiraBaseUrl}/${ticketNumber})
