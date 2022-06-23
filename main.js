@@ -3,7 +3,7 @@ const github = require('@actions/github');
 
 const token = core.getInput('token', { required: true });
 const body = core.getInput('body', { required: true });
-const jiraBaseUrl = core.getInput('body', { required: true });
+const jiraBaseUrl = core.getInput('jiraBaseUrl', { required: true });
 
 const [repoOwner, repoName] = process.env.GITHUB_REPOSITORY.split('/');
 
