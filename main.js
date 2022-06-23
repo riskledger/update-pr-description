@@ -9,11 +9,12 @@ const [repoOwner, repoName] = process.env.GITHUB_REPOSITORY.split('/');
 
 const prNum = github.context.payload.pull_request.number;
 const branchName = github.context.ref;
+const [branchType, ticketNumber] = branchName.split('/');
 
 const octokit = github.getOctokit(token);
 
 const template = `
-[Jira](${jiraBaseUrl}/${branchName})
+[Jira](${jiraBaseUrl}/${ticketNumber})
 
 ---
 
