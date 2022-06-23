@@ -22,8 +22,6 @@ const template = `
 
 const finalBody = template.concat(body);
 
-console.log(finalBody);
-
 octokit.rest.pulls.update({
   owner: repoOwner,
   repo: repoName,
