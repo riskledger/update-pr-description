@@ -9,7 +9,7 @@ inputs:
     description: A GitHub access token
     required: true
   jiraBaseUrl:
-    description: The base jira url for the project example https://example.atlassian.net/browse/
+    description: The base jira url for the project example https://example.atlassian.net/browse
     required: true
 
 runs:

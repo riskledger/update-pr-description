@@ -24,7 +24,7 @@ const finalBody = template.concat(body);
 
 console.log(finalBody);
 
-octokit.pulls.update({
+octokit.rest.pulls.update({
   owner: repoOwner,
   repo: repoName,
   body: finalBody,
