@@ -27,7 +27,7 @@
     "build": "ncc build main.js --license licenses.txt"
   },
   "dependencies": {
-    "@actions/core": "1.6.0",
+    "@actions/core": "1.10.0",
     "@actions/github": "5.0.0"
   },
   "devDependencies": {
