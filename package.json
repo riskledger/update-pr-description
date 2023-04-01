@@ -35,6 +35,6 @@
     "eslint": "8.7.x",
     "eslint-config-prettier": "8.3.x",
     "eslint-plugin-prettier": "4.0.x",
-    "prettier": "2.5.x"
+    "prettier": "2.8.x"
   }
 }
